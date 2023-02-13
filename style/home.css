@@ -119,6 +119,7 @@ header{
 
 .principal-img{
     position: relative;
+    z-index: 10;
 }
 
 .principal-img::after,
@@ -203,6 +204,10 @@ header{
     padding: 10px;
 }
 
-.porq-item i{
-    font-size: 40px;
+.porq-usar div i{
+    font-size: 20px;
+}
+
+i{
+    font-size: 20px;
 }
