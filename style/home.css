@@ -148,7 +148,7 @@ header{
 .porq-usar{
     background-image: linear-gradient(var(--secondary) , var(--primary));
     margin-top: -100px;
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     color: #fff;
     position: relative;
 }
@@ -210,4 +210,37 @@ header{
 
 i{
     font-size: 20px;
+}
+
+/* Section Faqs */
+.division-wave{
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/wave.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    position: relative;
+    top: -50px;
+}
+
+.title-section-faqs{
+    text-align: center;
+    color: var(--dark-grey);
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.title-section-faqs h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title-section-faqs p{
+    font-size: 20px;
+}
+
+.title-section-faqs hr{
+    width: 10%;
+    margin: 0 auto;
 }
