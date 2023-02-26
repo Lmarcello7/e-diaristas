@@ -14,6 +14,7 @@ Link arquivo figma
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
     <!--FONTES-->
     <!--ICONS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +28,7 @@ Link arquivo figma
                  <img src="./img/logo.png" alt="Logo E-Diaristas">
                  <div class="btn-header">
                     <a href="#" class="btn-contained">Seja uma Diarista</a>
-                    <a href="#" class="btn-void">Login</a>
+                    <a href="login.html" class="btn-void">Login</a>
                  </div>
             </div>
         </div>
@@ -65,6 +66,7 @@ Link arquivo figma
                             <p>São mais de 5.000 profssionais esperandopor você!</p>
                         </div>
                     </div>
+                    <hr>
                     <div class="porq-item">
                         <div>
                             <i class="fa fa-check" aria-hidden="true"></i>
@@ -74,7 +76,7 @@ Link arquivo figma
                             <p>Todos os profssionais são verifcados</p>
                         </div>
                     </div>
-
+                    <hr>
                     <div class="porq-item">
                         <div>
                             <i class="fa fa-search" aria-hidden="true"></i>
@@ -84,7 +86,7 @@ Link arquivo figma
                             <p>Você pode acessar todo o histórico do profssional</p>
                         </div>
                     </div>
-
+                    <hr>
                     <div class="porq-item">
                         <div>
                             <i class="fa fa-ban" aria-hidden="true"></i>
@@ -94,6 +96,7 @@ Link arquivo figma
                             <p>Seguro sobre qualquer possível dano</p>
                         </div>
                     </div>
+                    <hr>
                     <div class="porq-item">
                         <div>
                             <i class="fa fa-money" aria-hidden="true"></i>
@@ -103,6 +106,7 @@ Link arquivo figma
                             <p>O pagamento é realizado somente  quando o profssional está na sua casa</p>
                         </div>
                     </div>
+                    <hr>
                     <div class="porq-item">
                         <div>
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -124,7 +128,7 @@ Link arquivo figma
                     <p>Veja abaixo as perguntas frequentes</p>
                     <hr>
                 </div>
-                <div class="faqs-accordion">
+                <div id="accordion" class="faqs-accordion">
                     <button class="accordion">
                         <h5>Dúvida 1</h5>
                         <img class="plus" src="./img/accordion-plus.png" alt="icon-mais">
@@ -185,7 +189,45 @@ Link arquivo figma
         </section>
     </main>
     <footer>
-
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li>
+                            <a href="login.html">Encontrar uma diarista</a>
+                        </li>
+                        <li>
+                            <a href="#">Seja um(a) diarista</a>
+                        </li>
+                        <li>
+                            <a href="#">Porquê usar o E-diarista</a>
+                        </li>
+                        <li>
+                            <a id="aFaqs" href="#">Principais Dúvidas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>Quem somos?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam eget ligula eu lectus lobortis condimentum. Aliquam
+                        nonummy auctor massa. Pellentesque habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis
+                        egestas. Nulla at risus.
+                    </p>
+                </div>
+                <div class="footer-item">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-media">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </div>    
+                </div>
+            </div>
+        </div>
     </footer>
 	<script src="js/main.js"></script>
 </body>
